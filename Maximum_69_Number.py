@@ -1,9 +1,4 @@
 n=int(input())
-n=str(n)
-n=list(n)
-for i in range(len(n)):
-    if n[i]=="6":
-        n[i]="9"
-        break
-n="".join(n)
-print(n)
+a=str(n)
+p=a.replace("6","9",1)
+print(p)
